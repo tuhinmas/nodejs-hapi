@@ -20,7 +20,9 @@ const init = async () => {
     },
   });
 
-  // registrasi satu plugin
+  /**
+   * plugin registration
+   */
   await server.register({
     plugin: notes,
     options: {

@@ -13,6 +13,7 @@ class CollaborationsHandler {
 
     async postCollaborationHandler(request, h) {
         try {
+            console.log(this._validator);
             this._validator.validateCollaborationPayload(request.payload);
             const {
                 id: credentialId,

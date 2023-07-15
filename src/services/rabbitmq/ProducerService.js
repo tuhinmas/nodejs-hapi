@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 const amqp = require('amqplib');
 
 const ProducerService = {
